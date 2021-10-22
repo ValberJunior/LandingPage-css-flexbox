@@ -392,6 +392,7 @@ footer{
     }
 
     header{
+        background-color: #122a57;
         height: 150px;
         display: flex;
         text-align: center;
@@ -407,9 +408,9 @@ footer{
         }
 
     .banner{
-
+        background-image: url(../assets/banner2.jpg);
         background-size: cover;
-        background-attachment: none;
+        background-attachment: fixed;
 
         display: flex;
         justify-content: center;
@@ -453,7 +454,7 @@ footer{
 
 
     .outer-container{
-        background-attachment: none;
+        background-color: #122a57;
     }
 
     #services h2{
