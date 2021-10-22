@@ -393,7 +393,7 @@ footer{
     }
 
     header{
-        background-color: #122a57;
+
         height: 150px;
         display: flex;
         text-align: center;
@@ -409,6 +409,10 @@ footer{
         }
 
     .banner{
+
+        background-image: url(../assets/banner.jpg);
+        background-size: cover;
+        background-attachment: none;
 
         display: flex;
         justify-content: center;
@@ -450,10 +454,6 @@ footer{
         padding-left: 15px;
     }
 
-
-    .outer-container{
-        background-color: #122a57;
-    }
 
     #services h2{
         text-align: center;
