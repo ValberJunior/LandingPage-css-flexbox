@@ -436,7 +436,13 @@ footer{
 
     .intro .intro-text{
         width: 100%;
+        text-align: center;
        }
+
+    .intro .btn{
+        position: relative;
+        left: 30%;
+    }
     
 
     #about{
