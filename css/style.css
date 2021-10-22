@@ -163,16 +163,21 @@ header .menu{
 
 .intro{
     overflow: hidden;
+    padding-top: 30px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
-.intro img{
-    min-width: 350px;
+.logo{
+    width: 400px;
 }
 
 .intro .intro-text{
  min-height: 260px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
 }
 
 .intro .intro-text h1{
@@ -180,7 +185,6 @@ header .menu{
     font-size: 48px;
     margin-bottom: 10px;
 }
-
 
 .btn {
     background-color: #122a57;
@@ -202,6 +206,7 @@ header .menu{
     background-color: #123c8b;
     color: rgb(211, 207, 207);
 }
+
 
 #about{
     flex-direction: row-reverse;
@@ -440,10 +445,6 @@ footer{
         text-align: center;
        }
 
-    .intro .btn{
-        position: relative;
-        left: 30%;
-    }
     
 
     #about{
