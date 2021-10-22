@@ -13,3 +13,8 @@ https://user-images.githubusercontent.com/84424883/138388787-8a5802c0-acce-446b-
   <img src="https://cdn.iconscout.com/icon/free/png-64/html5-2038876-1720089.png" alt="html"width="50px" height="50px"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" alt="css" width="50px" height="50px"/> 
  </div>
+
+### Objetivos
+- Criar um design responsivo que agregue os conceitos do display flex e seus atributos.
+
+#### Posicionamento de Elementos com FlexBox CSS3 // Digital Inovation One (Módulo CSS)
