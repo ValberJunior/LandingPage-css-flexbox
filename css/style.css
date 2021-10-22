@@ -167,6 +167,10 @@ header .menu{
     justify-content: space-between;
 }
 
+.intro img{
+    min-width: 350px;
+}
+
 .intro .intro-text{
  min-height: 260px;
 }
@@ -232,7 +236,7 @@ header .menu{
 }
 
 #about img{
-    min-width: 500px;
+    min-width: 350px;
 }
 
 .outer-container{
@@ -410,7 +414,7 @@ footer{
     .banner{
         background-image: url(../assets/banner2.jpg);
         background-size: cover;
-        background-attachment: fixed;
+        background-attachment: none;
 
         display: flex;
         justify-content: center;
