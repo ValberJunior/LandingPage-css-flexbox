@@ -13,11 +13,6 @@ ul li a {
     text-decoration: none;
 }
 
-/* Img Default */
-div img{
-    display: block;
-    width: 100%;
-}
 
 .flex-container{
     display:flex;
@@ -237,7 +232,7 @@ header .menu{
 }
 
 #about img{
-    min-width: 420px;
+    min-width: 500px;
 }
 
 .outer-container{
@@ -255,6 +250,7 @@ header .menu{
     padding-top:50px;
     padding-bottom: 100px;
 }
+
 
 #services h2{
     color: #fff;
@@ -294,8 +290,8 @@ header .menu{
     margin-top: 20px;
 }
 
-.item-service img{
-    width: 80%;
+.item-services img{
+    width: 150px;
     margin: auto;
 }
 
@@ -412,6 +408,9 @@ footer{
 
     .banner{
 
+        background-size: cover;
+        background-attachment: none;
+
         display: flex;
         justify-content: center;
         align-items: center;
@@ -452,6 +451,11 @@ footer{
         padding-left: 15px;
     }
 
+
+    .outer-container{
+        background-attachment: none;
+    }
+
     #services h2{
         text-align: center;
         margin-bottom: 40px;
@@ -462,12 +466,7 @@ footer{
     }
 
     .item-service{
-        margin-bottom: 30px;
-    }
-
-    .item-service img{
-        width: 50%;
-        margin: auto;
+        margin-bottom: 50px;
     }
 
 
@@ -483,9 +482,8 @@ footer{
     }
 
     .plans-list .item-plans{
-        max-width: 90%;
         margin: auto;
-        width: 100%;
+        width: 90%;
         margin-bottom: 20px;
     }
 }
